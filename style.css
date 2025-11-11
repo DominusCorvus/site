@@ -1,5 +1,27 @@
+@import url('https://fonts.cdnfonts.com/css/agbalumo');
+
 *{
     background-color: black;
     color: #eeeeee;
     text-align: center;
+    font-size: 32px;
+    font-family: 'Agbalumo', sans-serif;
+}
+
+div.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div.content{
+    display: grid;
+    place-items: center;
+    width: max-content;
+    margin: auto;
+    padding: 25px 100px;
+    border: 2px rgb(255, 0, 255) solid;
+    box-shadow: 0px 0px 25px 5px rgb(192, 2, 192);
+    border-radius: 15px;
 }
