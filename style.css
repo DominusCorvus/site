@@ -12,7 +12,7 @@ div.box{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 85vh;
 }
 
 div.content{
@@ -20,8 +20,9 @@ div.content{
     place-items: center;
     width: max-content;
     margin: auto;
-    padding: 25px 100px;
+    padding: 20px 90px;
     border: 2px rgb(255, 0, 255) solid;
     box-shadow: 0px 0px 25px 5px rgb(192, 2, 192);
     border-radius: 15px;
+
 }
